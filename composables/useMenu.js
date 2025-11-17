@@ -14,13 +14,13 @@ const MAP = {
       label: 'MAIN',
       items: [
         { label: 'Dashboard', to: '/',              icon: 'mdi-view-dashboard-outline' },
-        { label: 'Upload',    to: '/upload',        icon: 'mdi-tray-arrow-up' },
+              { label: 'Users',         to: '/users',            icon: 'mdi-account-cog-outline' },
       ]
     },
     {
       label: 'MANAGEMENT',
       items: [
-        { label: 'Users',         to: '/users',            icon: 'mdi-account-cog-outline' },
+
         { label: 'Periods',       to: '/admin/periods',    icon: 'mdi-calendar-range' },
         { label: 'Topics',        to: '/admin/topics',     icon: 'mdi-format-list-bulleted' },
         { label: 'Assignments',   to: '/admin/assignments',icon: 'mdi-account-multiple-check' },
